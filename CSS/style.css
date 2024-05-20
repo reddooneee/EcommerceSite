@@ -174,3 +174,31 @@ footer {
 .right {
     text-align: right;
 }
+
+.login-button{
+        position: absolute;
+        right: 20px;
+        top: 9%;
+
+        background-color: #4CAF50; /* Green background */
+        color: white; /* White text */
+        border: none; /* No border */
+        border-radius: 5px; /* Rounded corners */
+        padding: 10px 20px; /* Some padding */
+        font-size: 16px; /* Font size */
+        font-weight: bold; /* Bold text */
+        cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+    .login-button::before{
+        content: "";
+        position: absolute;
+         top: 0;
+        left: 0;
+        background-color: #e8e7e7;
+        height: 100%;
+        width: 00%;
+        z-index: -1;
+        transition: .3s;
+
+}
