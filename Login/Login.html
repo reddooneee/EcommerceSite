@@ -1,32 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="module" src="scriptFireBase.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylelogin.css">
     <title>Pagina Di Accesso</title>
 </head>
     <body>
-        <div class="fraselogin"><h2>Accedi al tuo account</h2></div>
-        <form action="file.php">
-            <div class="login-container">
-                    <label for="username">Nome utente</label>
-                    <input type="text" id="username" name="username" required>
-                        
-                    <label for="username">Email:</label>
-                    <input type="text" id="username" name="username" required>
+        <form class="loginForm">
+            <label class="usernameLogin">Username: </label>
+            <input type="text" name="username" id="username" class="username">
 
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" required>
-                        
-                    <button type="submit">Login</button>
-            </div>
-        </form>
+            <label class="password">Password: </label>
+            <input type="password" name="password" id="password" class="password">
+            
+            <button id="submit" class="submitForm"> Create Account </button>
 
-
-
-
-
-
+            <input class="shpassword" type="checkbox" onclick="ShowPassword()">Show Password
     </body>
 </html>
