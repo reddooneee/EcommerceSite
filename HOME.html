@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop di Magliette Sportive</title>
     <link rel="stylesheet" href="/CSS/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header>
@@ -12,6 +13,24 @@
             <ul>
                 <li><a href="#home" style="color: black;">T-Zone</a></li>
             </ul>
+            <div class="menu-container">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="/HOME.html">Home</a></li>
+                        <li><a href="/chi siamo/chisiamo.html">Chi Siamo</a></li>
+                        <li><a href="#services">Maglie da Calcio</a></li>
+                        <li><a href="#contact">Maglie da Basket</a></li>
+                        <i class='bx bxs-cart bx-flip-vertical bx-tada' style='color:rgba(237,243,241,0.86)' > </i>
+                    </ul>
+                </nav>
+                <link rel="stylesheet" href="/CSS/cssmenu.css">
+            </div>
+            <script src="/JS/menuscript.js"></script>
         </nav>
     </header>
 
