@@ -17,6 +17,8 @@
     background-color: black;
     margin: 5px 0;
     transition: all 0.3s;
+    
+   
    
 }
 
@@ -24,9 +26,11 @@
     display: none;
     top: 50px;
     right: 0;
-    background-color: rgb(41, 39, 39);
+    background-color:rgba(120, 108, 108, 0.5);
     box-shadow: 5px 8px 16px rgb(152, 226, 156);
     z-index: 1;
+    backdrop-filter: blur(50px);
+    
 }
 
 .menu ul {
@@ -46,5 +50,6 @@
 }
 
 .menu ul li:hover {
-    background-color: #b9b3b3;
+    background-color: #04bd36;
+    
 }
