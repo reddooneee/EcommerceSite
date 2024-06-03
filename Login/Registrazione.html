@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--<script type="module" src="scriptFireBase.js" defer></script>-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Registrazione.css" />
+    <title>Pagina Di Accesso</title>
+  </head>
+
+  <body>
+    <form class="loginForm" action="query.php" method="post">
+      <div class="container-reg">
+        <label class="nome">Nome </label>
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          class="styleform-reg"
+          placeholder="Nome"
+          required
+        />
+      </div>
+      <div class="container-reg">
+        <label class="cognome">Cognome </label>
+        <input
+          type="text"
+          name="cognome"
+          id="cognome"
+          class="styleform-reg"
+          placeholder="Cognome "
+          required
+        />
+      </div>
+      <div class="container-reg">
+      <label class="codice_fiscale">Codice Fiscale: </label>
+      <input
+        type="text"
+        name="codice_fiscale"
+        id="codice_fiscale"
+        class="styleform-reg"
+        placeholder="Codice Fiscale"
+        required
+      />
+        </div>
+      <div class="container-reg">
+        <label class="email">email: </label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="styleform-reg"
+        placeholder="Email"
+        required
+      />
+    </div>
+    <div class="container-reg">
+      <label class="password">Password: </label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        class="styleform-reg"
+        placeholder="Password"
+        required
+      />
+    </div>
+    <div class="container-reg">
+      <label class="indirizzo">indirizzo </label>
+      <input
+        type="text"
+        name="indirizzo"
+        id="indirizzo"
+        class="styleform-reg"
+        placeholder="Indirizzo"
+        required
+      />
+    </div>
+    <div class="container-reg">
+      <label class="citta">Citta </label>
+      <input
+        type="text"
+        name="citta"
+        id="citta"
+        class="styleform-reg"
+        placeholder="Citta"
+        required
+      />
+    </div>
+    <div class="container-reg">
+      <label class="telefono">Telefono </label>
+      <input
+        type="text"
+        name="telefono"
+        id="telefono"
+        class="styleform-reg"
+        placeholder="Telefono"
+        required
+      />
+    </div>
+      <button id="submit" class="submitForm">Create Account</button>
+    </form>
+  </body>
+</html>

@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     display: flex;
@@ -8,12 +8,69 @@ body {
     margin: 0;
 }
 
-.fraselogin{
+
+
+.loginForm{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 17px;
+}
+
+.loginForm label {
+    font-weight: bold;
+}
+
+
+.register-button{
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 100%;
+    ;
+}
+
+.loginForm .submitForm {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 45%;
+}
+
+/*.styleform-reg {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+*/
+
+/*.fraselogin{
     font-family: Arial, sans-serif;
     color: #00ff51;
     margin-bottom: 35%;
     margin-left: 10%;
 }
+
+
+.loginForm  {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+}
+
 
 
 .login-container {
@@ -56,42 +113,80 @@ body {
 
 .login-container button:hover {
     background-color: #45a049;
+}*/
+/* Style the form */
+/* Style the form */
+
+.body{
+    background-image: url("/Login/Background/foden.png");
 }
 
-.loginForm{
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    font-size: 17px;
-}
-
-.loginForm label {
+.loginForm {
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family:system-ui;
+    margin-top: 12%;
+  }
+  
+  /* Style the labels and inputs */
+  label {
+    display: block;
+    margin-bottom: 10px;
     font-weight: bold;
-}
-
-.loginForm input[type="email"],
-.loginForm input[type="password"] {
-    width: 100%;
+  }
+  
+  input[type="email"], input[type="password"] {
+    width: 95%;
+    height: 20px;
+    margin-bottom: 20px;
     padding: 10px;
-    margin: 5px 0 15px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-.loginForm .shpassword {
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.loginForm .submit {
-    background-color: #4caf50;
-    color: white;
+  }
+  
+  input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the submit button */
+  .submitForm {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
     border: none;
-    padding: 10px 20px;
-    cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .submitForm:hover {
+    background-color: #3e8e41;
+  }
+  
+  .register-button:hover {
+    background-color: #23527c;
+  }
+  
+  /* Add some space between the form and the register button */
+  #register {
+    margin-top: 20px;
+  }
+  #register {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
 }

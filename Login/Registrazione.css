@@ -1,0 +1,106 @@
+/** {
+  padding: 0;
+  margin: 0;
+
+}
+
+.styleform-reg {
+    
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}   
+
+.container-reg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+}
+
+.submitForm{
+    width: 50%;
+
+}*/
+
+
+/* Stile di base per il corpo della pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Stile per il modulo di login */
+  .loginForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Stile per i contenitori dei campi del modulo */
+  .container-reg {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+  }
+  
+  /* Stile per le etichette */
+  .container-reg label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Stile per i campi di input */
+  .styleform-reg {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  /* Stile per il pulsante di invio */
+  .submitForm {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submitForm:hover {
+    background-color: #218838;
+  }
+  
+  /* Stile per rendere il modulo responsivo */
+  @media (max-width: 400px) {
+    .loginForm {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
